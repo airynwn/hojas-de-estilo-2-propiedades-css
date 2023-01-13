@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Propiedades CSS - Border</title>
     <style>
-      div {
+      div:nth-child(1) {
         float: left;
         margin: 40px;
         width: 300px;
         height: 300px;
         background-color:rgba(240, 46, 170, 0.05);
         border-radius: 6px;
+        box-shadow: 0.25em 0.25em rgba(240, 46, 170, 04),
+                    0.5em 0.5em rgba(240, 46, 170, 0.3),
+                    0.75em 0.75em rgba(240, 46, 170, 0.2),
+                    1em 1em rgba(240, 46, 170, 0.1),
+                    1.25em 1.25em rgba(240, 46, 170, 0.05);
       }
 
       /* Escala de colores:
@@ -23,16 +28,46 @@
         rgba(240, 46, 170, 0.05)
       */
       /* Distancia entre sombras de 5px. */
-      div:nth-child(1) {
-      }
-
       div:nth-child(2) {
+        float: left;
+        margin: 40px;
+        width: 300px;
+        height: 300px;
+        background-color:rgba(240, 46, 170, 0.05);
+        border-radius: 6px;
+        box-shadow: 0em 0.25em rgba(240, 46, 170, 04),
+                    0em 0.5em rgba(240, 46, 170, 0.3),
+                    0em 0.75em rgba(240, 46, 170, 0.2),
+                    0em 1em rgba(240, 46, 170, 0.1),
+                    0em 1.25em rgba(240, 46, 170, 0.05);
       }
 
       div:nth-child(3) {
+        float: left;
+        margin: 40px;
+        width: 300px;
+        height: 300px;
+        background-color:rgba(240, 46, 170, 0.05);
+        border-radius: 6px;
+        box-shadow: -0.25em 0.25em rgba(240, 46, 170, 04),
+                    -0.5em 0.5em rgba(240, 46, 170, 0.3),
+                    -0.75em 0.75em rgba(240, 46, 170, 0.2),
+                    -1em 1em rgba(240, 46, 170, 0.1),
+                    -1.25em 1.25em rgba(240, 46, 170, 0.05);
       }
 
       div:nth-child(4) {
+        float: left;
+        margin: 40px;
+        width: 300px;
+        height: 300px;
+        background-color:rgba(240, 46, 170, 0.05);
+        border-radius: 6px;
+        box-shadow: 0em 0.25em rgba(240, 46, 170, 04),
+                    0em 0.5em rgba(240, 46, 170, 0.3),
+                    0em 0.75em rgba(240, 46, 170, 0.2),
+                    0em 1em rgba(240, 46, 170, 0.1),
+                    0em 1.25em rgba(240, 46, 170, 0.05);
       }
 
       /* Escala de colores:
@@ -48,7 +83,21 @@
       */
       /* Prolongación de cada capas de 3px. */
       div:nth-child(5) {
+        float: left;
+        margin: 40px;
+        width: 300px;
+        height: 300px;
+        border-radius: 6px;
         background-color: #FFF;
+        box-shadow: 0px 0px 0px 3px blue,
+                    5px -5px 0px 3px rgb(255, 255, 255), 
+                    10px -10px 0px 3px rgb(31, 193, 27), 
+                    15px -15px 0px 3px rgb(255, 255, 255), 
+                    20px -20px 0px 3px rgb(255, 217, 19), 
+                    25px -25px 0px 3px rgb(255, 255, 255), 
+                    30px -30px 0px 3px rgb(255, 156, 85), 
+                    35px -35px 0px 3px rgb(255, 255, 255), 
+                    40px -40px 0px 3px rgb(255, 85, 85);
       }
 
       /* Escala de colores:
@@ -63,20 +112,48 @@
         rgb(255, 85, 85);
       */
       div:nth-child(6) {
+        float: left;
+        margin: 40px;
+        width: 300px;
+        height: 300px;
+        border-radius: 6px;
         background-color: #FFF;
+        box-shadow: 0px 0px 0px 3px blue,
+                    0px 0px 0px 6px rgb(255, 255, 255), 
+                    0px 0px 0px 9px rgb(31, 193, 27), 
+                    0px 0px 0px 12px rgb(255, 255, 255), 
+                    0px 0px 0px 15px rgb(255, 217, 19), 
+                    0px 0px 0px 18px rgb(255, 255, 255), 
+                    0px 0px 0px 21px rgb(255, 156, 85), 
+                    0px 0px 0px 24px rgb(255, 255, 255), 
+                    0px 0px 0px 27px rgb(255, 85, 85);
       }
 
       div:nth-child(7) {
+        float: left;
+        margin: 40px;
+        width: 300px;
+        height: 300px;
+        border-radius: 6px;
         background-color: #FFF;
+        box-shadow: inset 0em 0em 0.5em 0.1em lightgray,
+                    2px 2px 70px 5px lightgray;
       }
 
       div:nth-child(8) {
+        float: left;
+        margin: 40px;
+        width: 300px;
+        height: 300px;
+        border-radius: 6px;
         background-color: #FFF;
+        box-shadow: 2px 2px 70px 5px lightgray;
       }
       
     </style>
   </head>
   <body>
+    <div></div>
     <div></div>
     <div></div>
     <div></div>
